@@ -1,0 +1,8 @@
+{
+  "name": "Remix Udyam Digital",
+  "description": "Airtel Business Udyam360 - Empowering Indian MSMEs with simplified discovery, tailored telecom \u0026 cloud bundles, intelligent advisory, automated KYC, and real-time activation tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,36 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build files
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# KYC documents and uploads
+kyc/
+uploads/
+data/kyc_specimens/
+data/kyc_documents/
+
+# Sensitive or unnecessary demo data
+data/smb_leads.csv
+data/kyc_specimens/
+kyc/
+uploads/
+
+# KYC and duplicated source data
+public/assets/aistudio/K*.png
+public/assets/aistudio/smb_leads_*.csv
+public/assets/aistudio/mock_gstin_registry_*.csv
+public/assets/aistudio/mock_udyam_registry_*.csv
